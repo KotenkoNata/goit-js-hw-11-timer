@@ -1,0 +1,1 @@
+.timer{font-family:sans-serif;color:#fff;display:flex;justify-content:center;font-weight:100;text-align:center;font-size:30px}.timer>div{padding:10px;background:#555757;margin-left:30px;margin-top:50px}.timer>div,.value{border-radius:3px;display:inline-block}.value{padding:15px;background:rgba(23,24,24,.42)}.label{padding-top:5px;font-size:14px}
