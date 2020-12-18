@@ -1,0 +1,27 @@
+.timer {
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+.timer > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #555757;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.value {
+  padding: 15px;
+  border-radius: 3px;
+  background: #1718186b;
+  display: inline-block;
+}
+.label {
+  padding-top: 5px;
+  font-size: 14px;
+}
