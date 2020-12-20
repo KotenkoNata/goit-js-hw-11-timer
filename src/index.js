@@ -29,9 +29,7 @@ const CountdownTimer = function ({ selector, targetDate }) {
     },
   };
 
-  refs.updateTime(0);
-
-  const intervalId = setInterval(() => {
+  const handleTimer = () => {
     const currentDate = Date.now();
     const time = date - currentDate;
     if (time < 0) {
@@ -40,7 +38,11 @@ const CountdownTimer = function ({ selector, targetDate }) {
       return;
     }
     refs.updateTime(time);
-  }, 1000);
+  };
+
+  handleTimer();
+
+  const intervalId = setInterval(handleTimer, 1000);
 };
 
 new CountdownTimer({
